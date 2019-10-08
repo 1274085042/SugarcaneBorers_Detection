@@ -1,0 +1,14 @@
+提供的Matlab版的make只编译产生可以运行在Windows底下的CPU的版本，如需运行GPU请具体参考该工具的主页http://www.vlfeat.org/matconvnet/
+
+进入 matlab/src目录，运行make.m
+
+需要修改的一个地方：
+bits/normalize.cpp中第19行的一个头文件
+VS2010是#include <immintrin.h>
+其他版本可以参考：http://www.cnblogs.com/zyl910/archive/2012/02/28/vs_intrin_table.html
+或者百度
+
+
+编译完成后，可以返回上一层目录：
+	运行 vl_setup.nn.m
+	然后输入： vl_test_nnlyers
