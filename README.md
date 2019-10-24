@@ -31,7 +31,8 @@ pre-built binaries, but MatConvNet does not.
 2. From MATLAB, run `addpath extras ; prepareLabData.m`.  
 
 ## Visualization
-![](https://github.com/1274085042/Sugarcane_borers_detect/blob/master/visualization/picture1.png)  
+![](https://github.com/1274085042/Sugarcane_borers_detect/blob/master/visualization/picture1.png)    
+![](https://github.com/1274085042/Sugarcane_borers_detect/blob/master/visualization/picture3.png)
 ## Problem  
 When selecting a positive sample,which of the following should be selected?  
 ![](https://github.com/1274085042/Sugarcane_borers_detect/blob/master/visualization/picture2.png)
