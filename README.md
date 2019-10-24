@@ -1,4 +1,4 @@
-Object category detection 
+Sugarcane borers detection 
 ===================================
 
 
@@ -27,9 +27,14 @@ Appendix: Installing from scratch
 The project requires both VLFeat and MatConvNet. VLFeat comes with
 pre-built binaries, but MatConvNet does not.
 
-1. From Bash, run `./extras/download.sh`. This will download the
-   German Street Sign Benchmark data and VLFeat.
-2. From MATLAB, run `addpath extras ; prepareLabData.m`.
+1. From Bash, run `./extras/download.sh`. This will download VLFeat.
+2. From MATLAB, run `addpath extras ; prepareLabData.m`.  
+
+## Visualization
+![](https://github.com/1274085042/Sugarcane_borers_detect/blob/master/visualization/picture1.png)  
+## Problem  
+When selecting a positive sample,which of the following should be selected?  
+![](https://github.com/1274085042/Sugarcane_borers_detect/blob/master/visualization/picture2.png)
 
 Changes
 -------
